@@ -63,7 +63,7 @@ public class LoanEligibilityChecks {
         }
 
         else {
-            System.out.println("you are eligible for loan");
+            System.out.println("Enter a valid age");
             System.exit(1);
         }
         return age;
@@ -83,7 +83,7 @@ public class LoanEligibilityChecks {
             }
         }
         else {
-            System.out.println("You are Eligible for loan");
+            System.out.println("Enter a valid salary");
         }
         return salary;
     }
@@ -102,7 +102,7 @@ public class LoanEligibilityChecks {
             }
         }
         else {
-            System.out.println("You are eligible for loan");
+            System.out.println("Enter a valid credit score");
         }
         return credit;
     }
